@@ -1,0 +1,20 @@
+dwm_catalogue_homepage:
+    path:     /
+    defaults: { _controller: DWMCatalogueBundle:Default:index }
+
+dwm_catalogue_ajout:
+    path:     /ajouter/{nom}/{prix}
+    defaults: { _controller: DWMCatalogueBundle:Default:ajout }
+
+dwm_catalogue_liste:
+    path:     /lister
+    defaults: { _controller: DWMCatalogueBundle:Default:liste }
+
+dwm_catalogue_formproduit:
+    path:     /formproduit
+    defaults: { _controller: DWMCatalogueBundle:Default:formproduit }
+
+dwm_catalogue_homep:
+    path:     /
+    defaults: { _controller: DWMCatalogueBundle:Default:index }
+
